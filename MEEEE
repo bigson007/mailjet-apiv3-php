@@ -1,0 +1,5 @@
+curl -s -X POST \
+-H "Authorization: Bearer $e510cc8b77e94d66bec9ed4fa874f27f" \
+https://api.mailjet.com/v4/sms-send \
+-H 'Content-Type: application/json' \
+-d '{"MEE": ...}'
